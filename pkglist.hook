@@ -7,4 +7,4 @@ Target = *
 [Action]
 Description = Making a copy of installed packages...
 When = PostTransaction
-Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /home/firubi/.dump/pkglist.txt'
+Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /path/to/file.txt'
