@@ -24,3 +24,6 @@ In order to use, follow this wiki: https://wiki.archlinux.org/title/KDE#KDE_Conn
 
 #### Configure Wi-Fi Regulatory Domain
 Have wireless-regdb installed and edit the file /etc/conf.d/wireless-regdom to uncomment your country. Effects are taken on next reboot.
+
+#### Configure ZRAM
+The easiest way is to use zram-generator and use sysctl settings from PopOS. Refer to [wiki](https://wiki.archlinux.org/title/Zram#Using_zram-generator) for zram-generator.
